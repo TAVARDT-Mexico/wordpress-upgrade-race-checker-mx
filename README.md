@@ -28,7 +28,7 @@ Dado que los navegadores web imponen restricciones de CORS y sandbox que impiden
 
 ```bash
 # 1. Obtener la utilidad oficial de auditoría
-curl -sO https://raw.githubusercontent.com/TAVARDT-Mexico/wordpress-upgrade-race-checker-mx/main/audit_wp_race.py
+curl -sO https://raw.githubusercontent.com/TAVARDT/wordpress-upgrade-race-checker-mx/main/audit_wp_race.py
 
 # 2. Ejecutar auditoría directa contra su dominio
 python audit_wp_race.py https://su-dominio.com
