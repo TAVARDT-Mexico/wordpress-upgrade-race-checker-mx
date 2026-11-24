@@ -1,4 +1,4 @@
-# TAVARDT México : Central de Hardening y Auditoría WordPress Upgrade Race Condition
+# Central de Hardening y Auditoría WordPress Upgrade Race Condition
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-5b3cf5.svg)](https://tavardt-mexico.github.io/wordpress-upgrade-race-checker-mx/)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
@@ -89,3 +89,7 @@ Acceda a la guía técnica interactiva en producción:
 ***
 
 &copy; 2026 TAVARDT México. Todos los derechos reservados.
+
+***
+
+© 2026 TAVARDT. Todos los derechos reservados.
