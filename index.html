@@ -21,7 +21,7 @@
   <meta property="og:locale" content="es_MX">
   
   <meta name="ai-content-declaration" content="citable-security-tool">
-  <meta name="geo.region" content="MX">
+  <meta name="geo.region" content="ES">
   <meta name="geo.placename" content="México">
   
   <link rel="preconnect" href="https://www.googletagmanager.com">
@@ -47,7 +47,7 @@
       "offers": {
         "@type": "Offer",
         "price": "0",
-        "priceCurrency": "MXN"
+        "priceCurrency": "EUR"
       },
       "publisher": {
         "@type": "Organization",
@@ -1285,7 +1285,7 @@ python audit_wp_race.py https://su-dominio.com</div>
       </div>
       <div class="tavardt-footer-col">
         <div class="tavardt-footer-heading">Gobernanza &amp; Cumplimiento</div>
-        <p class="tavardt-footer-compliance-text">Arquitectura defensiva y controles de ciberseguridad alineados con la LFPDPPP, directrices de la Guardia Nacional CERT-MX y estándares internacionales.</p>
+        <p class="tavardt-footer-compliance-text">Arquitectura defensiva y controles de ciberseguridad alineados con el ENS, RGPD, CCN-CERT y estándares Zero Trust.</p>
       </div>
     </div>
     <div class="tavardt-footer-bottom">
@@ -1501,14 +1501,14 @@ if __name__ == "__main__":
       if (sel) sel.value = tab;
       const box = document.getElementById('code-box');
       if (box && codeTemplates[tab]) {
-        box.innerText = codeTemplates[tab];
+        box.textContent = codeTemplates[tab];
       }
     }
 
     function copyCode() {
       const code = codeTemplates[activeTab];
       if (!code) return;
-      navigator.clipboard.writeText(code).then(() => {
+      navigator.clipboard.writeText(code).catch(() => {}).then(() => {
         const btn = document.getElementById('btn-copy-code');
         const orig = btn.innerText;
         btn.innerText = '¡Copiado!';
@@ -1518,7 +1518,7 @@ if __name__ == "__main__":
 
     function copyCliCommand() {
       const code = document.getElementById('cli-terminal-code').innerText;
-      navigator.clipboard.writeText(code).then(() => {
+      navigator.clipboard.writeText(code).catch(() => {}).then(() => {
         const btn = document.getElementById('btn-copy-cli');
         const orig = btn.innerText;
         btn.innerText = '¡Copiado!';
